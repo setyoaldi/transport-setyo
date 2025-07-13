@@ -1,5 +1,39 @@
-# Vue 3 + Vite
+# Transport Shipment Manajement
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Project structure
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+```bash
+transport-shipment-tracker-app/
+├── public/                 # Static files (e.g., images, favicon)
+├── src/                    # Main source code
+│   ├── assets/             # Images, icons, etc.
+│   ├── components/         # Reusable Vue components
+│   ├── constans/           # Constant values used throughout the app
+│   ├── data/               # Static/mock data files
+│   ├── routes/             # Vue Router configuration
+│   ├── services/           # API calls and service logic
+│   ├── store/              # Pinia store modules
+│   ├── views/              # Page-level Vue components
+│   ├── App.vue             # Root component
+│   ├── main.js             # App entry point
+│   └── style.css           # Global styles
+├── index.html              # HTML template for Vite
+├── vite.config.js          # Vite configuration
+├── .gitignore              # Git ignore rules
+├── package.json            # Project metadata and dependencies
+└── README.md               # Project documentation
+```
+
+## Requirement
+
+- Node Js v20
+- NPM v10
+
+## Installation
+
+- git pull
+- npm install
+
+## Running the apps
+
+- npm run dev
