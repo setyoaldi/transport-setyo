@@ -1,16 +1,20 @@
+<script setup>
+import logo from "../assets/jeje-logo.png";
+</script>
+
 <template>
-  <div class="border-b-[2px] h-20 border-neutral-200">
-    <div class="px-7 py-5 flex justify-between">
-      <img src="../assets/jeje-logo.png" class="object-cover" width="100" />
-      <div class="flex gap-4">
-        <NuxtLink
-          to="/"
-          class="text-neutral-500"
-          active-class="font-bold text-orange-500 "
-        >
-          Shipment
-        </NuxtLink>
-      </div>
+  <nav class="bg-white border-gray-200">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between">
+      <router-link
+        to="/"
+        class="flex items-center space-x-3 rtl:space-x-reverse"
+      >
+        <img
+          :src="logo"
+          alt="Transport Shipment Tracker Logo"
+          class="h-48 w-auto"
+        />
+      </router-link>
     </div>
-  </div>
+  </nav>
 </template>
